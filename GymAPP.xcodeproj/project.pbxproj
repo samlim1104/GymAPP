@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643D1D662BCF22260074DFDB /* RegistrationActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D532BCF22250074DFDB /* RegistrationActivityView.swift */; };
+		643D1D672BCF22260074DFDB /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D542BCF22250074DFDB /* cameraView.swift */; };
+		643D1D682BCF22260074DFDB /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D552BCF22250074DFDB /* LoginViewViewModel.swift */; };
+		643D1D692BCF22260074DFDB /* CategoryRow 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D562BCF22250074DFDB /* CategoryRow 2.swift */; };
+		643D1D6A2BCF22260074DFDB /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D572BCF22250074DFDB /* ExerciseListView.swift */; };
+		643D1D6B2BCF22260074DFDB /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D582BCF22250074DFDB /* StorageManager.swift */; };
+		643D1D6C2BCF22260074DFDB /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D592BCF22250074DFDB /* Exercise.swift */; };
+		643D1D6D2BCF22260074DFDB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5A2BCF22250074DFDB /* CategoryRow.swift */; };
+		643D1D6E2BCF22260074DFDB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5B2BCF22250074DFDB /* DetailView.swift */; };
+		643D1D6F2BCF22260074DFDB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5C2BCF22250074DFDB /* SignInView.swift */; };
+		643D1D702BCF22260074DFDB /* contextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5D2BCF22250074DFDB /* contextMenu.swift */; };
+		643D1D712BCF22260074DFDB /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5E2BCF22260074DFDB /* AuthenticationManager.swift */; };
+		643D1D722BCF22260074DFDB /* MuscleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D5F2BCF22260074DFDB /* MuscleListView.swift */; };
+		643D1D732BCF22260074DFDB /* navigationBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D602BCF22260074DFDB /* navigationBarTest.swift */; };
+		643D1D742BCF22260074DFDB /* NetworkModel 2.01.33 PM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D612BCF22260074DFDB /* NetworkModel 2.01.33 PM.swift */; };
+		643D1D752BCF22260074DFDB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D622BCF22260074DFDB /* ImagePicker.swift */; };
+		643D1D762BCF22260074DFDB /* ContentView.swift 14-31-56-672.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D632BCF22260074DFDB /* ContentView.swift 14-31-56-672.swift */; };
+		643D1D772BCF22260074DFDB /* SignInRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D642BCF22260074DFDB /* SignInRootView.swift */; };
+		643D1D782BCF22260074DFDB /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D652BCF22260074DFDB /* NetworkModel.swift */; };
 		F0153D642BCF1D600027119F /* GymAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D632BCF1D600027119F /* GymAPPApp.swift */; };
 		F0153D682BCF1D620027119F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0153D672BCF1D620027119F /* Assets.xcassets */; };
 		F0153D6C2BCF1D620027119F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0153D6B2BCF1D620027119F /* Preview Assets.xcassets */; };
 		F0153D762BCF1D620027119F /* GymAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D752BCF1D620027119F /* GymAPPTests.swift */; };
 		F0153D802BCF1D620027119F /* GymAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D7F2BCF1D620027119F /* GymAPPUITests.swift */; };
 		F0153D822BCF1D620027119F /* GymAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D812BCF1D620027119F /* GymAPPUITestsLaunchTests.swift */; };
-		F0153D9F2BCF1DEA0027119F /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D8E2BCF1DEA0027119F /* cameraView.swift */; };
-		F0153DA02BCF1DEA0027119F /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D8F2BCF1DEA0027119F /* AuthenticationManager.swift */; };
-		F0153DA12BCF1DEA0027119F /* contextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D902BCF1DEA0027119F /* contextMenu.swift */; };
-		F0153DA22BCF1DEA0027119F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D912BCF1DEA0027119F /* CategoryRow.swift */; };
-		F0153DA32BCF1DEA0027119F /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D922BCF1DEA0027119F /* LoginViewViewModel.swift */; };
-		F0153DA42BCF1DEA0027119F /* SignInRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D932BCF1DEA0027119F /* SignInRootView.swift */; };
-		F0153DA62BCF1DEA0027119F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D952BCF1DEA0027119F /* Exercise.swift */; };
-		F0153DA72BCF1DEA0027119F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D962BCF1DEA0027119F /* SignInView.swift */; };
-		F0153DA82BCF1DEA0027119F /* navigationBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D972BCF1DEA0027119F /* navigationBarTest.swift */; };
-		F0153DA92BCF1DEA0027119F /* RegistrationActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D982BCF1DEA0027119F /* RegistrationActivityView.swift */; };
-		F0153DAA2BCF1DEA0027119F /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D992BCF1DEA0027119F /* NetworkModel.swift */; };
-		F0153DAB2BCF1DEA0027119F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D9A2BCF1DEA0027119F /* StorageManager.swift */; };
-		F0153DAC2BCF1DEA0027119F /* MuscleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D9B2BCF1DEA0027119F /* MuscleListView.swift */; };
-		F0153DAD2BCF1DEA0027119F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D9C2BCF1DEA0027119F /* ImagePicker.swift */; };
-		F0153DAE2BCF1DEA0027119F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D9D2BCF1DEA0027119F /* ContentView.swift */; };
-		F0153DAF2BCF1DEA0027119F /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D9E2BCF1DEA0027119F /* ExerciseListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643D1D532BCF22250074DFDB /* RegistrationActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationActivityView.swift; sourceTree = "<group>"; };
+		643D1D542BCF22250074DFDB /* cameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cameraView.swift; sourceTree = "<group>"; };
+		643D1D552BCF22250074DFDB /* LoginViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		643D1D562BCF22250074DFDB /* CategoryRow 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryRow 2.swift"; sourceTree = "<group>"; };
+		643D1D572BCF22250074DFDB /* ExerciseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
+		643D1D582BCF22250074DFDB /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		643D1D592BCF22250074DFDB /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		643D1D5A2BCF22250074DFDB /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		643D1D5B2BCF22250074DFDB /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		643D1D5C2BCF22250074DFDB /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		643D1D5D2BCF22250074DFDB /* contextMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contextMenu.swift; sourceTree = "<group>"; };
+		643D1D5E2BCF22260074DFDB /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		643D1D5F2BCF22260074DFDB /* MuscleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleListView.swift; sourceTree = "<group>"; };
+		643D1D602BCF22260074DFDB /* navigationBarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigationBarTest.swift; sourceTree = "<group>"; };
+		643D1D612BCF22260074DFDB /* NetworkModel 2.01.33 PM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkModel 2.01.33 PM.swift"; sourceTree = "<group>"; };
+		643D1D622BCF22260074DFDB /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		643D1D632BCF22260074DFDB /* ContentView.swift 14-31-56-672.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ContentView.swift 14-31-56-672.swift"; sourceTree = "<group>"; };
+		643D1D642BCF22260074DFDB /* SignInRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootView.swift; sourceTree = "<group>"; };
+		643D1D652BCF22260074DFDB /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		F0153D602BCF1D600027119F /* GymAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0153D632BCF1D600027119F /* GymAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAPPApp.swift; sourceTree = "<group>"; };
 		F0153D672BCF1D620027119F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,22 +81,6 @@
 		F0153D7B2BCF1D620027119F /* GymAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0153D7F2BCF1D620027119F /* GymAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAPPUITests.swift; sourceTree = "<group>"; };
 		F0153D812BCF1D620027119F /* GymAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F0153D8E2BCF1DEA0027119F /* cameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cameraView.swift; path = ../../../Documents/GymAppV2/GymAppV2/cameraView.swift; sourceTree = "<group>"; };
-		F0153D8F2BCF1DEA0027119F /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationManager.swift; path = ../../../Documents/GymAppV2/GymAppV2/AuthenticationManager.swift; sourceTree = "<group>"; };
-		F0153D902BCF1DEA0027119F /* contextMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = contextMenu.swift; path = ../../../Documents/GymAppV2/GymAppV2/contextMenu.swift; sourceTree = "<group>"; };
-		F0153D912BCF1DEA0027119F /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryRow.swift; path = ../../../Documents/GymAppV2/GymAppV2/CategoryRow.swift; sourceTree = "<group>"; };
-		F0153D922BCF1DEA0027119F /* LoginViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewViewModel.swift; path = ../../../Documents/GymAppV2/GymAppV2/LoginViewViewModel.swift; sourceTree = "<group>"; };
-		F0153D932BCF1DEA0027119F /* SignInRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInRootView.swift; path = ../../../Documents/GymAppV2/GymAppV2/SignInRootView.swift; sourceTree = "<group>"; };
-		F0153D952BCF1DEA0027119F /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = ../../../Documents/GymAppV2/GymAppV2/Exercise.swift; sourceTree = "<group>"; };
-		F0153D962BCF1DEA0027119F /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = ../../../Documents/GymAppV2/GymAppV2/SignInView.swift; sourceTree = "<group>"; };
-		F0153D972BCF1DEA0027119F /* navigationBarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = navigationBarTest.swift; path = ../../../Documents/GymAppV2/GymAppV2/navigationBarTest.swift; sourceTree = "<group>"; };
-		F0153D982BCF1DEA0027119F /* RegistrationActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationActivityView.swift; path = ../../../Documents/GymAppV2/GymAppV2/RegistrationActivityView.swift; sourceTree = "<group>"; };
-		F0153D992BCF1DEA0027119F /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkModel.swift; path = ../../../Documents/GymAppV2/GymAppV2/NetworkModel.swift; sourceTree = "<group>"; };
-		F0153D9A2BCF1DEA0027119F /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = ../../../Documents/GymAppV2/GymAppV2/StorageManager.swift; sourceTree = "<group>"; };
-		F0153D9B2BCF1DEA0027119F /* MuscleListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MuscleListView.swift; path = ../../../Documents/GymAppV2/GymAppV2/MuscleListView.swift; sourceTree = "<group>"; };
-		F0153D9C2BCF1DEA0027119F /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../../../Documents/GymAppV2/GymAppV2/ImagePicker.swift; sourceTree = "<group>"; };
-		F0153D9D2BCF1DEA0027119F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Documents/GymAppV2/GymAppV2/ContentView.swift; sourceTree = "<group>"; };
-		F0153D9E2BCF1DEA0027119F /* ExerciseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseListView.swift; path = ../../../Documents/GymAppV2/GymAppV2/ExerciseListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,22 +131,25 @@
 		F0153D622BCF1D600027119F /* GymAPP */ = {
 			isa = PBXGroup;
 			children = (
-				F0153D8F2BCF1DEA0027119F /* AuthenticationManager.swift */,
-				F0153D8E2BCF1DEA0027119F /* cameraView.swift */,
-				F0153D912BCF1DEA0027119F /* CategoryRow.swift */,
-				F0153D9D2BCF1DEA0027119F /* ContentView.swift */,
-				F0153D902BCF1DEA0027119F /* contextMenu.swift */,
-				F0153D952BCF1DEA0027119F /* Exercise.swift */,
-				F0153D9E2BCF1DEA0027119F /* ExerciseListView.swift */,
-				F0153D9C2BCF1DEA0027119F /* ImagePicker.swift */,
-				F0153D922BCF1DEA0027119F /* LoginViewViewModel.swift */,
-				F0153D9B2BCF1DEA0027119F /* MuscleListView.swift */,
-				F0153D972BCF1DEA0027119F /* navigationBarTest.swift */,
-				F0153D992BCF1DEA0027119F /* NetworkModel.swift */,
-				F0153D982BCF1DEA0027119F /* RegistrationActivityView.swift */,
-				F0153D932BCF1DEA0027119F /* SignInRootView.swift */,
-				F0153D962BCF1DEA0027119F /* SignInView.swift */,
-				F0153D9A2BCF1DEA0027119F /* StorageManager.swift */,
+				643D1D5E2BCF22260074DFDB /* AuthenticationManager.swift */,
+				643D1D542BCF22250074DFDB /* cameraView.swift */,
+				643D1D562BCF22250074DFDB /* CategoryRow 2.swift */,
+				643D1D5A2BCF22250074DFDB /* CategoryRow.swift */,
+				643D1D632BCF22260074DFDB /* ContentView.swift 14-31-56-672.swift */,
+				643D1D5D2BCF22250074DFDB /* contextMenu.swift */,
+				643D1D5B2BCF22250074DFDB /* DetailView.swift */,
+				643D1D592BCF22250074DFDB /* Exercise.swift */,
+				643D1D572BCF22250074DFDB /* ExerciseListView.swift */,
+				643D1D622BCF22260074DFDB /* ImagePicker.swift */,
+				643D1D552BCF22250074DFDB /* LoginViewViewModel.swift */,
+				643D1D5F2BCF22260074DFDB /* MuscleListView.swift */,
+				643D1D602BCF22260074DFDB /* navigationBarTest.swift */,
+				643D1D612BCF22260074DFDB /* NetworkModel 2.01.33 PM.swift */,
+				643D1D652BCF22260074DFDB /* NetworkModel.swift */,
+				643D1D532BCF22250074DFDB /* RegistrationActivityView.swift */,
+				643D1D642BCF22260074DFDB /* SignInRootView.swift */,
+				643D1D5C2BCF22250074DFDB /* SignInView.swift */,
+				643D1D582BCF22250074DFDB /* StorageManager.swift */,
 				F0153D632BCF1D600027119F /* GymAPPApp.swift */,
 				F0153D672BCF1D620027119F /* Assets.xcassets */,
 				F0153D692BCF1D620027119F /* GymAPP.entitlements */,
@@ -304,23 +313,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0153DA12BCF1DEA0027119F /* contextMenu.swift in Sources */,
-				F0153DA32BCF1DEA0027119F /* LoginViewViewModel.swift in Sources */,
-				F0153DAD2BCF1DEA0027119F /* ImagePicker.swift in Sources */,
-				F0153DA02BCF1DEA0027119F /* AuthenticationManager.swift in Sources */,
-				F0153D9F2BCF1DEA0027119F /* cameraView.swift in Sources */,
-				F0153DA92BCF1DEA0027119F /* RegistrationActivityView.swift in Sources */,
-				F0153DAF2BCF1DEA0027119F /* ExerciseListView.swift in Sources */,
-				F0153DA62BCF1DEA0027119F /* Exercise.swift in Sources */,
-				F0153DA22BCF1DEA0027119F /* CategoryRow.swift in Sources */,
-				F0153DA42BCF1DEA0027119F /* SignInRootView.swift in Sources */,
+				643D1D732BCF22260074DFDB /* navigationBarTest.swift in Sources */,
+				643D1D662BCF22260074DFDB /* RegistrationActivityView.swift in Sources */,
+				643D1D722BCF22260074DFDB /* MuscleListView.swift in Sources */,
+				643D1D692BCF22260074DFDB /* CategoryRow 2.swift in Sources */,
+				643D1D6A2BCF22260074DFDB /* ExerciseListView.swift in Sources */,
+				643D1D6E2BCF22260074DFDB /* DetailView.swift in Sources */,
+				643D1D782BCF22260074DFDB /* NetworkModel.swift in Sources */,
+				643D1D6D2BCF22260074DFDB /* CategoryRow.swift in Sources */,
 				F0153D642BCF1D600027119F /* GymAPPApp.swift in Sources */,
-				F0153DA72BCF1DEA0027119F /* SignInView.swift in Sources */,
-				F0153DAB2BCF1DEA0027119F /* StorageManager.swift in Sources */,
-				F0153DAE2BCF1DEA0027119F /* ContentView.swift in Sources */,
-				F0153DAA2BCF1DEA0027119F /* NetworkModel.swift in Sources */,
-				F0153DA82BCF1DEA0027119F /* navigationBarTest.swift in Sources */,
-				F0153DAC2BCF1DEA0027119F /* MuscleListView.swift in Sources */,
+				643D1D752BCF22260074DFDB /* ImagePicker.swift in Sources */,
+				643D1D672BCF22260074DFDB /* cameraView.swift in Sources */,
+				643D1D742BCF22260074DFDB /* NetworkModel 2.01.33 PM.swift in Sources */,
+				643D1D702BCF22260074DFDB /* contextMenu.swift in Sources */,
+				643D1D712BCF22260074DFDB /* AuthenticationManager.swift in Sources */,
+				643D1D6F2BCF22260074DFDB /* SignInView.swift in Sources */,
+				643D1D6C2BCF22260074DFDB /* Exercise.swift in Sources */,
+				643D1D682BCF22260074DFDB /* LoginViewViewModel.swift in Sources */,
+				643D1D772BCF22260074DFDB /* SignInRootView.swift in Sources */,
+				643D1D762BCF22260074DFDB /* ContentView.swift 14-31-56-672.swift in Sources */,
+				643D1D6B2BCF22260074DFDB /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
