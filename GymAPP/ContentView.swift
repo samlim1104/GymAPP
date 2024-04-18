@@ -21,10 +21,10 @@ struct ContentView: View {
     @State var showSheet2 = false
     
     
-    init() {
-        UITabBar.appearance().isHidden = true
-    }
-    
+//    init() {
+//        UITabBar.appearance().isHidden = true
+//    }
+//    
     var body: some View {
         ZStack{
             VStack{

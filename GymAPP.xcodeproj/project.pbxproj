@@ -28,6 +28,11 @@
 		643D1D7F2BCF23060074DFDB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D7E2BCF23060074DFDB /* FirebaseFirestore */; };
 		643D1D812BCF23060074DFDB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D802BCF23060074DFDB /* FirebaseStorage */; };
 		643D1D832BCF238C0074DFDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D1D822BCF238C0074DFDB /* ContentView.swift */; };
+		643D1D852BCF25020074DFDB /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 643D1D842BCF25020074DFDB /* GoogleService-Info (1).plist */; };
+		643D1D872BCF25650074DFDB /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D862BCF25650074DFDB /* FirebaseFunctions */; };
+		643D1D892BCF25650074DFDB /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D882BCF25650074DFDB /* FirebaseInstallations */; };
+		643D1D8B2BCF25650074DFDB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D8A2BCF25650074DFDB /* FirebaseMessaging */; };
+		643D1D8D2BCF25650074DFDB /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 643D1D8C2BCF25650074DFDB /* FirebasePerformance */; };
 		F0153D642BCF1D600027119F /* GymAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0153D632BCF1D600027119F /* GymAPPApp.swift */; };
 		F0153D682BCF1D620027119F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0153D672BCF1D620027119F /* Assets.xcassets */; };
 		F0153D6C2BCF1D620027119F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0153D6B2BCF1D620027119F /* Preview Assets.xcassets */; };
@@ -71,6 +76,7 @@
 		643D1D642BCF22260074DFDB /* SignInRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootView.swift; sourceTree = "<group>"; };
 		643D1D652BCF22260074DFDB /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		643D1D822BCF238C0074DFDB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		643D1D842BCF25020074DFDB /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		F0153D602BCF1D600027119F /* GymAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0153D632BCF1D600027119F /* GymAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAPPApp.swift; sourceTree = "<group>"; };
 		F0153D672BCF1D620027119F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,7 +96,11 @@
 			files = (
 				643D1D7B2BCF23060074DFDB /* FirebaseAnalytics in Frameworks */,
 				643D1D812BCF23060074DFDB /* FirebaseStorage in Frameworks */,
+				643D1D8B2BCF25650074DFDB /* FirebaseMessaging in Frameworks */,
+				643D1D872BCF25650074DFDB /* FirebaseFunctions in Frameworks */,
+				643D1D892BCF25650074DFDB /* FirebaseInstallations in Frameworks */,
 				643D1D7D2BCF23060074DFDB /* FirebaseAuth in Frameworks */,
+				643D1D8D2BCF25650074DFDB /* FirebasePerformance in Frameworks */,
 				643D1D7F2BCF23060074DFDB /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +145,7 @@
 		F0153D622BCF1D600027119F /* GymAPP */ = {
 			isa = PBXGroup;
 			children = (
+				643D1D842BCF25020074DFDB /* GoogleService-Info (1).plist */,
 				643D1D822BCF238C0074DFDB /* ContentView.swift */,
 				643D1D5E2BCF22260074DFDB /* AuthenticationManager.swift */,
 				643D1D542BCF22250074DFDB /* cameraView.swift */,
@@ -206,6 +217,10 @@
 				643D1D7C2BCF23060074DFDB /* FirebaseAuth */,
 				643D1D7E2BCF23060074DFDB /* FirebaseFirestore */,
 				643D1D802BCF23060074DFDB /* FirebaseStorage */,
+				643D1D862BCF25650074DFDB /* FirebaseFunctions */,
+				643D1D882BCF25650074DFDB /* FirebaseInstallations */,
+				643D1D8A2BCF25650074DFDB /* FirebaseMessaging */,
+				643D1D8C2BCF25650074DFDB /* FirebasePerformance */,
 			);
 			productName = GymAPP;
 			productReference = F0153D602BCF1D600027119F /* GymAPP.app */;
@@ -299,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0153D6C2BCF1D620027119F /* Preview Assets.xcassets in Resources */,
+				643D1D852BCF25020074DFDB /* GoogleService-Info (1).plist in Resources */,
 				F0153D682BCF1D620027119F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,10 +514,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GymAPP/GymAPP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GymAPP/Preview Content\"";
-				DEVELOPMENT_TEAM = V76C279322;
+				DEVELOPMENT_TEAM = BF2DPT75LQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -522,6 +540,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edd.GymAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -536,10 +555,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GymAPP/GymAPP.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GymAPP/Preview Content\"";
-				DEVELOPMENT_TEAM = V76C279322;
+				DEVELOPMENT_TEAM = BF2DPT75LQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -560,6 +581,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edd.GymAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -730,6 +752,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 643D1D792BCF23060074DFDB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		643D1D862BCF25650074DFDB /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643D1D792BCF23060074DFDB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		643D1D882BCF25650074DFDB /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643D1D792BCF23060074DFDB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		643D1D8A2BCF25650074DFDB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643D1D792BCF23060074DFDB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		643D1D8C2BCF25650074DFDB /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643D1D792BCF23060074DFDB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
